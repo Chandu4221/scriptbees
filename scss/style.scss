@@ -1,0 +1,98 @@
+@function rem($value) {
+  @return unquote(($value/1px)/16+"rem");
+}
+
+$bodyBackground: #f4f3f3;
+$orange: #de6020;
+$lightGreen: #85c525;
+$lightGray: #dadada;
+$googlePlus: #f85520;
+$facebook: #3f51b5;
+$twitter: #30a9f4;
+body {
+  background-color: $bodyBackground;
+}
+
+._logo {
+  font-size: rem(30px);
+}
+._bannerImage {
+  background-image: url(../images/Bitmap.png);
+  min-height: rem(300px);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+._bgBlack {
+  background-color: #000000;
+}
+._main {
+  margin-top: rem(-100px);
+}
+._section {
+  padding-top: rem(110px);
+}
+._event {
+  background-color: $orange;
+}
+._bglightGreen {
+  background-color: $lightGreen;
+}
+._borderLightGray {
+  border: rem(1px) solid $lightGray;
+}
+._text ._tabs {
+  .nav-link {
+    color: #212121;
+
+    &.active {
+      @extend ._bglightGreen;
+      color: #ffffff;
+    }
+  }
+}
+._contactUsBtn {
+  @extend ._borderLightGray;
+  &:hover {
+    background-color: darken(#ffffff, 10%);
+  }
+}
+._volunteer {
+  i.fa {
+    height: rem(24px);
+    width: rem(24px);
+  }
+}
+._socialShare {
+  i.fa {
+    font-size: rem(22px);
+  }
+  ._tw {
+    color: $twitter;
+  }
+  ._fb {
+    color: $facebook;
+  }
+  ._gp {
+    color: $googlePlus;
+  }
+}
+._personsList {
+  li {
+    padding-left: rem(34px);
+  }
+  ._userIcon {
+    height: rem(30px);
+    width: rem(30px);
+    left: 0%;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    @extend ._borderLightGray;
+  }
+}
+._mediaImage {
+  height: rem(50px);
+  width: rem(50px);
+  @extend ._borderLightGray;
+}

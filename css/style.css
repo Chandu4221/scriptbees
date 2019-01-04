@@ -1,1 +1,91 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+body {
+  background-color: #f4f3f3;
+}
+
+._logo {
+  font-size: 1.875rem;
+}
+
+._bannerImage {
+  background-image: url(../images/Bitmap.png);
+  min-height: 18.75rem;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+._bgBlack {
+  background-color: #000000;
+}
+
+._main {
+  margin-top: -6.25rem;
+}
+
+._section {
+  padding-top: 6.875rem;
+}
+
+._event {
+  background-color: #de6020;
+}
+
+._bglightGreen, ._text ._tabs .nav-link.active {
+  background-color: #85c525;
+}
+
+._borderLightGray, ._contactUsBtn, ._personsList ._userIcon, ._mediaImage {
+  border: 0.0625rem solid #dadada;
+}
+
+._text ._tabs .nav-link {
+  color: #212121;
+}
+
+._text ._tabs .nav-link.active {
+  color: #ffffff;
+}
+
+._contactUsBtn:hover {
+  background-color: #e6e6e6;
+}
+
+._volunteer i.fa {
+  height: 1.5rem;
+  width: 1.5rem;
+}
+
+._socialShare i.fa {
+  font-size: 1.375rem;
+}
+
+._socialShare ._tw {
+  color: #30a9f4;
+}
+
+._socialShare ._fb {
+  color: #3f51b5;
+}
+
+._socialShare ._gp {
+  color: #f85520;
+}
+
+._personsList li {
+  padding-left: 2.125rem;
+}
+
+._personsList ._userIcon {
+  height: 1.875rem;
+  width: 1.875rem;
+  left: 0%;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+._mediaImage {
+  height: 3.125rem;
+  width: 3.125rem;
+}
+/*# sourceMappingURL=style.css.map */
